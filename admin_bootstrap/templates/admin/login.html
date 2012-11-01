@@ -2,7 +2,7 @@
 {% load i18n %}
 
 {% block extrastyle %}{% load adminmedia %}{{ block.super }}
-<link rel="stylesheet" type="text/css" href="/admins/css/login.css" />
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}admin_bootstrap/css/login.css" />
 {% endblock %}
 
 {% block branding %}{% endblock %}
